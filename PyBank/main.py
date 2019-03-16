@@ -80,9 +80,9 @@ txt = open('bank.txt','w')
 txt.write('Financial Analysis' + '\n')
 txt.write('-----------------------' + '\n')
 txt.write('Total months: ' + str(months) + '\n')
-txt.write('Total profit/losses: ' + str(net_pl) + '\n')
+txt.write('Total profit/losses: ' + '$' + str(net_pl) + '\n')
 txt.write('Average change: ' + str(avg) + '\n')
-txt.write('Greatest gain: ' + str(max_month['Date']) + ' ' + str(max_month['Change']) + '\n')
-txt.write('Greatest loss: ' + str(min_month['Date']) + ' ' + str(min_month['Change']))
+txt.write('Greatest gain: ' + str(max_month['Date']) + ' ' + '$' + str(max_month['Change']) + '\n')
+txt.write('Greatest loss: ' + str(min_month['Date']) + ' ' + '$' + str(min_month['Change']))
 
 
