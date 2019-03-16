@@ -69,10 +69,10 @@ min_month = lowest_change.loc[0, :]
 print('Financial Analysis')
 print('-----------------------')
 print('Total months: ' + str(months))
-print('Total profit/losses: ' + str(net_pl))
+print('Total profit/losses: ' + '$' + str(net_pl))
 print('Average change: ' + str(avg))
-print('Greatest gain: ' + str(max_month['Date']) + ' ' + str(max_month['Change']))
-print('Greatest loss: ' + str(min_month['Date']) + ' ' + str(min_month['Change']))
+print('Greatest gain: ' + str(max_month['Date']) + ' ' + '$' + str(max_month['Change']))
+print('Greatest loss: ' + str(min_month['Date']) + ' ' + '$' + str(min_month['Change']))
 
 
 
